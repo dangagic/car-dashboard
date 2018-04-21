@@ -9,7 +9,19 @@ hpa:
 cloud_services:
   conversation:
     credentials: '{
-  "url": "https://gateway.watsonplatform.net/assistant/api",
-  "username": "58d87df0-fd3b-48be-83d5-1ca31f395e76",
-  "password": "DHoeSI6PruAh"
-}'
+     "url": "https://gateway.watsonplatform.net/assistant/api",
+     "username": "58d87df0-fd3b-48be-83d5-1ca31f395e76",
+     "password": "DHoeSI6PruAh"
+    }'
+  speech_to_text:
+    credentials:  '{
+      "url": "https://stream.watsonplatform.net/text-to-speech/api",
+      "username": "c685a009-4a8d-4cad-851a-c38e5e95ea0d",
+      "password": "OPrApBmdO50B"
+    }'
+  text_to_speech:
+    credentials:  '{
+      "url": "https://stream.watsonplatform.net/speech-to-text/api",
+      "username": "ac141989-b66d-4bdf-885a-7fc4a9e70e85",
+      "password": "QktLHrE31n0s"
+    }'
